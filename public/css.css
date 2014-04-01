@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100%;
+}
+header {
+	height: 40px;
+	width: 100%;
+	background-color: #C90;
+}
+
+
+
+#footer {
+	height: 40px;
+	width: 100%;
+	background-color: #F39;
+}
+.foto {
+	height: 400px;
+	width: 400px;
+	background-color: #3C6;
+	float: left;
+}
+.registation {
+	background-color: #C33;
+	height: 400px;
+	width: 400px;
+	float: right;
+}
+h1 {
+	clear: left;
+	float: left;
+}
+
+/* new*/
+
+.outer{
+	width: 100%;
+	/* Firefox */
+	display: -moz-box;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	/* Safari and Chrome */
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	/* W3C */
+	display: box;
+	box-pack: center;
+	box-align: center;
+	height: 400px;
+	background-color: #0F9;
+}
+
+
+
+
+
+.inner {
+	width: 800px;
+	height: 400px;
+	background-color: #309;
+}
+
+.inner{
+	display: table;
+}
+
+/* new*/
+
+.outer2{
+	width: 100%;
+	/* Firefox */
+	display: -moz-box;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	/* Safari and Chrome */
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	/* W3C */
+	display: box;
+	box-pack: center;
+	box-align: center;
+	height: 800px;
+	background-color: #0F9;
+}
+
+.inner2 {
+	width:2000px;
+	height:800px;
+	background-color: #309;
+}
+
+.inner2{
+	display: table;
+	height: 1080;
+}
